@@ -1,0 +1,302 @@
+body {
+  background: #F6E4F8;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.firstbar {
+  padding: 0em;
+  text-align: center;
+}
+
+.firstbar .container .first-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  padding: 0em;
+  font-size: .8em;
+  text-decoration: none;
+}
+
+.firstbar .container .fimg {
+  margin-right: 1em;
+  margin-bottom: 0em;
+  padding-top: .8em;
+  width: 15px;
+  height: 15px;
+}
+
+.firstbar .container p {
+  color: black;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.firstbar .container .socialaccounts {
+  display: none;
+}
+
+.navbar {
+  background: #6D1379;
+  padding: 0;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .container .mfm-img {
+  width: 42px;
+  height: 39.9px;
+  background-color: transparent;
+}
+
+.navbar .container .search {
+  display: none;
+}
+
+.navbar .container .menu-bar {
+  width: 20px;
+  height: 20px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.navbar .container nav {
+  display: none;
+}
+
+.navbar .mfmimage {
+  width: 0%;
+  height: auto;
+  margin-bottom: -0.5em;
+  margin-left: 1em;
+}
+
+.navbar .menu-bar {
+  font-weight: 500;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.hero {
+  text-align: center;
+  padding: 5em;
+  background: url("../images/he.jpeg");
+  background-repeat: no-repeat;
+  background-position: 65% 93%;
+  background-size: 100% 100%;
+}
+
+.hero .container .header {
+  color: white;
+}
+
+.hero .container .hero-style {
+  font-size: .9em;
+  font-weight: 500;
+  color: white;
+}
+
+.second-hero {
+  margin: 0em;
+  font-size: .8em;
+}
+
+.second-hero .container .about-us {
+  padding: 2em;
+}
+
+.second-hero .container .about-us .g-o {
+  float: right;
+  background-size: 100px 60px;
+}
+
+.second-hero .container .about-us .dr-dk {
+  font-size: 1em;
+}
+
+.second-hero .container .Shade {
+  padding: 2em;
+}
+
+.second-hero .container .sh-ol {
+  font-size: 1em;
+}
+
+.third-hero {
+  background: #ead6ec;
+}
+
+.third-hero .container {
+  padding: 2em;
+  font-size: .8em;
+}
+
+.third-hero .container .about-mfm .abm {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.third-hero .container .in-the-begining .itb {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.mission .container {
+  padding: 2em;
+  font-size: .8em;
+}
+
+.mission .container .mv {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.mission .container .wwb {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.about-mfm-region-of-favour {
+  background: #e7cee9;
+  padding: 2em;
+}
+
+.about-mfm-region-of-favour .container {
+  padding: 2em;
+  font-size: .8em;
+}
+
+.about-mfm-region-of-favour .container .amf {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.about-mfm-region-of-favour .container .gatrh {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.about-mfm-region-of-favour .container ul {
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+.about-mfm-region-of-favour .container ul p {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.footer .container {
+  background-color: #131111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  font-size: .5em;
+  padding: 1em;
+}
+
+.footer .container p {
+  margin: 0;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-bar {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50px auto;
+        grid-template-columns: 50px auto;
+  }
+  .navbar .container nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0em;
+    margin-right: 0em;
+  }
+  .navbar .container .mobile-exit-menu {
+    display: none;
+  }
+  .navbar .container ul li {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: white;
+    font-size: .9em;
+    padding: .1em;
+    font-weight: 10em;
+    background: #c39ee2;
+    margin: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);
+            box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);
+  }
+  .navbar .container ul a {
+    padding: 0em .7em;
+    margin-left: 0em;
+    color: #0f0f0f;
+  }
+  .navbar .container ul a:hover {
+    background: #9a6fc0;
+    border-radius: .4em;
+  }
+  .navbar .container .primary-nav {
+    margin: 0em 1em;
+    padding: 0em;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .hero .container .center-design {
+    padding: 10em;
+  }
+  .second-hero .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5em;
+  }
+  .third-hero .container {
+    padding: 5em;
+  }
+  .mission {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2em;
+  }
+  .about-mfm-region-of-favour .container {
+    padding: 2em;
+  }
+  .footer .container {
+    background-color: #131111;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: space-between;
+    font-size: .8em;
+    padding: 1em;
+  }
+  .footer .container p {
+    margin: 0;
+    color: white;
+  }
+}
+/*# sourceMappingURL=main.css.map */

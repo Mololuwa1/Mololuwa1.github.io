@@ -1,0 +1,342 @@
+body {
+  background: #F6E4F8;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.firstbar {
+  padding: 0em;
+  text-align: center;
+}
+
+.firstbar .container .first-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  padding: 0em;
+  font-size: .8em;
+  text-decoration: none;
+}
+
+.firstbar .container .fimg {
+  margin-right: 1em;
+  margin-bottom: 0em;
+  padding-top: .8em;
+  width: 15px;
+  height: 15px;
+}
+
+.firstbar .container p {
+  color: black;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.firstbar .container .socialaccounts {
+  display: none;
+}
+
+.navbar {
+  background: #6D1379;
+  padding: 0;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .container .mfm-img {
+  width: 42px;
+  height: 39.9px;
+  background-color: transparent;
+}
+
+.navbar .container .search {
+  display: none;
+}
+
+.navbar .container .menu-bar {
+  width: 20px;
+  height: 20px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.navbar .container nav {
+  display: none;
+}
+
+.navbar .mfmimage {
+  width: 0%;
+  height: auto;
+  margin-bottom: -0.5em;
+  margin-left: 1em;
+}
+
+.navbar .menu-bar {
+  font-weight: 500;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.hero .container {
+  background: #c281c2;
+  padding: 2em;
+}
+
+.hero .container .left-side {
+  background-color: #b7a3e4;
+  margin: 0em;
+  -webkit-box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.hero .container .left-side h3 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: .2em;
+  margin-bottom: 0em;
+  padding: .5em;
+}
+
+.hero .container .left-side .about-prayer-request {
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.hero .container .right-side .form-m {
+  background: #ad60ad;
+  padding: 1em;
+  -webkit-box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.hero .container .right-side label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+.hero .container .right-side input, .hero .container .right-side textarea {
+  width: 100%;
+  padding: .8em;
+  background-color: #d6aad6;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero .container .right-side input[type="submit"] {
+  background-color: #69bfe0;
+  color: black;
+  font-weight: bold;
+  font-size: .8em;
+  border: none;
+  border-radius: 3em;
+  display: inline-block;
+  width: unset;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.contact-us .container {
+  text-align: center;
+  background: #dda6dd;
+  padding: 0;
+}
+
+.contact-us .container .mfm-logo {
+  width: 10%;
+  height: auto;
+  text-align: center;
+}
+
+.contact-us .container .details ul {
+  padding: .5em;
+}
+
+.contact-us .container .details ul li {
+  text-align: center;
+  padding: 1em;
+}
+
+.contact-us .container .details ul li .call-us {
+  width: 35px;
+  height: 35px;
+}
+
+.contact-us .container .details ul li .reach-us {
+  text-decoration: underline;
+  margin: 0em;
+}
+
+.contact-us .container .details ul li .about-reach-us {
+  margin: 0;
+}
+
+.contact-us .container .details ul li .email-us {
+  text-decoration: underline;
+  margin: 0;
+}
+
+.contact-us .container .details ul li .about-email-us {
+  margin: 0em;
+}
+
+.contact-us .container .details ul li .find-usimg {
+  width: 35px;
+  height: 35px;
+}
+
+.contact-us .container .details ul li .find-us {
+  text-decoration: underline;
+  margin: 0em;
+}
+
+.contact-us .container .details ul li .about-find-us {
+  margin: 0;
+}
+
+.contact-map {
+  background-color: gray;
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+  padding: 0em;
+  margin: 0em;
+}
+
+.footer .container {
+  background-color: #131111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  font-size: .5em;
+  padding: 1em;
+}
+
+.footer .container p {
+  margin: 0;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-bar {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50px auto;
+        grid-template-columns: 50px auto;
+  }
+  .navbar .container nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0em;
+    margin-right: 0em;
+  }
+  .navbar .container .mobile-exit-menu {
+    display: none;
+  }
+  .navbar .container ul li {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: white;
+    font-size: .9em;
+    padding: .1em;
+    font-weight: 10em;
+    background: #c39ee2;
+    margin: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);
+            box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);
+  }
+  .navbar .container ul a {
+    padding: 0em .7em;
+    margin-left: 0em;
+    color: #0f0f0f;
+  }
+  .navbar .container ul a:hover {
+    background: #9a6fc0;
+    border-radius: .4em;
+  }
+  .navbar .container .primary-nav {
+    margin: 0em 1em;
+    padding: 0em;
+  }
+  .hero .container {
+    padding: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hero .container .left-side {
+    padding: 0em;
+    font-size: .8em;
+    margin-bottom: 25em;
+    margin-right: 5em;
+  }
+  .hero .container .right-side {
+    padding-left: 0em;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .contact-us .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: space-between;
+  }
+  .contact-us .container .mfm-logo {
+    display: none;
+  }
+  .contact-us .container .contact-map {
+    margin-left: 0em;
+    margin-bottom: 0em;
+    padding: 1em;
+  }
+  .contact-us .container .contact-map iframe {
+    padding: 0em;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .footer .container {
+    background-color: #131111;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: space-between;
+    font-size: .8em;
+    padding: 1em;
+  }
+  .footer .container p {
+    margin: 0;
+    color: white;
+  }
+}
+/*# sourceMappingURL=contactus.css.map */

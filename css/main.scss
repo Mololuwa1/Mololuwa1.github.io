@@ -1,0 +1,332 @@
+body{
+    background:#F6E4F8 ;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+.firstbar{
+    padding: 0em;
+   text-align: center;
+   
+
+    .container{
+        
+
+        .first-img{
+            display: flex;
+            place-content: center;
+            padding: 0em;
+            font-size: .8em;
+            text-decoration: none;
+            
+        }
+        .fimg{
+            margin-right: 1em;
+            margin-bottom: 0em;
+            padding-top: .8em;
+            width: 15px;
+            height: 15px;
+        }
+        p{
+            color: black;
+            font-weight: 500;
+            font-size: 0.8em;
+            
+        }
+        .socialaccounts{
+            display: none;
+        }
+    }
+}
+.navbar{
+    background:#6D1379 ;
+    padding: 0;
+
+    .container{
+        display: flex;
+        place-content: space-between;
+
+        .mfm-img{
+            width: 42px;
+            height: 39.9px;
+            background-color: transparent;
+        }
+            
+        .search{
+            display:none;
+
+        }
+        .menu-bar{
+            width: 20px;
+            height: 20px;
+            padding-top: .5em;
+            padding-bottom: .5em;
+        }
+        
+
+        nav{
+            display: none;
+            
+        }
+    }
+
+    .mfmimage{
+
+        width: 0%;
+        height: auto;
+        margin-bottom: -0.5em;
+        margin-left: 1em;
+
+    }
+    .menu-bar{
+        font-weight: 500;
+        font-size: 1.2em;
+        cursor: pointer;
+        margin-right: 1em;
+
+    }
+
+}
+.hero{
+    text-align: center;
+    padding: 5em;
+    background: url("../images/he.jpeg");
+    background-repeat: no-repeat;
+    background-position: 65% 93%;
+    background-size: 100% 100%;
+
+    .container{
+        .header{
+            color: white;
+
+        }
+        .hero-style{
+           font-size: .9em; 
+           font-weight: 500;
+           color: white;
+        }
+    }
+}
+.second-hero{
+    margin: 0em;
+   
+    font-size: .8em;
+    .container{
+        
+        .about-us{
+            padding: 2em;
+
+            .g-o{
+                float: right;
+                background-size: 100px 60px;
+            }
+            .dr-dk{
+                font-size: 1em;     
+            }
+            
+
+        }
+        .Shade{
+            padding: 2em;
+        }
+        .sh-ol{
+            font-size: 1em;
+        }
+    }
+
+}
+.third-hero{
+    background:#ead6ec ;
+    .container{
+        padding: 2em;
+        font-size: .8em;
+        .about-mfm{
+            
+
+            .abm{
+                text-align: center;
+                font-size: 1.2em;
+            }
+
+        }
+        .in-the-begining{
+            .itb{
+                text-align: center;
+                font-size: 1.2em;
+            
+            }           
+    
+        }
+
+    }
+    
+}
+.mission{
+    .container{
+        padding: 2em;
+        font-size: .8em;
+        .mv{
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .wwb{
+            text-align: center;
+            font-size: 1.2em;
+        }
+    }
+}
+.about-mfm-region-of-favour{
+    background: #e7cee9;
+    padding: 2em;
+    .container{
+        padding: 2em;
+        font-size: .8em;
+        .amf{
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .gatrh{
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        ul{
+            padding: 0 0 0 0;
+            margin: 0;
+            p{
+                font-size: 1.1em; 
+                font-weight: 600;
+            }
+        }
+    }
+}
+.footer{
+    .container{
+        background-color: rgb(19, 17, 17);
+        p{
+            margin: 0;
+            color: white;
+        }
+        display: flex;
+        place-content: space-between;
+        font-size: .5em; 
+        padding: 1em;
+    }
+}
+
+@media only screen and(min-width: 768px){
+    .menu-bar{
+        display: none;
+    }
+    .navbar {
+        .container{
+            display: grid;
+            grid-template-columns: 50px auto;
+            
+            
+
+            nav {
+                display: flex;
+                background: none;
+                position: unset;
+                height: auto;
+                width: 100%;
+                padding: 0em;
+                margin-right: 0em;
+                
+                
+                }
+                .mobile-exit-menu{
+                    display: none;
+                }  
+
+                ul{
+                    
+                    li{
+                    display: inline-flex;
+                    color: white; 
+                    font-size: .9em;
+                    padding: .1em;
+                    font-weight: 10em;
+                    background: #c39ee2;
+                    margin: .5em; 
+                    border-radius: .5em;
+                    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.4em);
+                    }
+                    a{
+                        padding: 0em .7em;
+                        margin-left: 0em;
+                        color: rgb(15, 15, 15);
+                        
+
+                        &:hover{
+                            background: #9a6fc0;
+                            border-radius: .4em;
+                          
+                            
+
+                        }
+                    }
+                    
+                    
+                }
+                .primary-nav{
+                    margin: 0em 1em;
+                    padding: 0em;
+                    
+                }
+               
+                
+
+        }
+    }
+}
+@media only screen and(min-width: 1080px){
+    .hero{
+        .container{
+            .center-design{
+                padding: 10em;
+            }
+        }
+    }
+    .second-hero{
+        .container{
+            display: flex;
+            padding: 5em;
+        }
+    }
+    .third-hero{
+        .container{
+           
+            padding: 5em;
+        }
+    }
+    .mission{
+        display: flex;
+        padding: 2em;
+        
+    }
+    .about-mfm-region-of-favour{
+       .container{
+           padding: 2em;
+       }
+
+    }
+    .footer{
+        .container{
+            background-color: rgb(19, 17, 17);
+            p{
+                margin: 0;
+                color: white;
+            }
+            display: flex;
+            place-content: space-between;
+            font-size: .8em; 
+            padding: 1em;
+        }
+    }
+    
+
+}
