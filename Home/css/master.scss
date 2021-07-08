@@ -1,7 +1,9 @@
 .container{
     animation: transitionIn 1s ;
 }
-
+.navbar{
+    position : fixed
+}
 @keyframes transitionIn {
 
     from{
